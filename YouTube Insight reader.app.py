@@ -64,8 +64,8 @@ st.markdown("""
 # Initialize APIs
 @st.cache_resource
 def init_apis():
-    yt_key = os.getenv("YOUTUBE_API_KEY")
-    gemini_key = os.getenv("GEMINI_API_KEY")
+    yt_key = os.getenv("AIzaSyBf3XQ1_-MBEynmsglRMtnqQeFXePw-pQU")
+    gemini_key = os.getenv("AIzaSyAlxQOAJ8TGp2i8PKz4azEMOqK5Eeb7pto")
 
     if not yt_key:
         st.error("YOUTUBE_API_KEY not found in.env file")
